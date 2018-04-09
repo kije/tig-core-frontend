@@ -1,0 +1,39 @@
+{
+  "name": "tig-core-frontend",
+  "version": "0.1.0",
+  "description": "modern filemanager library (core)",
+  "main": "src/index.js",
+  "repository": "https://github.com/kije/tig-core-frontend.git",
+  "author": "Kim D. Jeker <git@kije.ch>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c",
+    "typedefinitions:install": "flow-typed install -i dev",
+    "typedefinitions:generate": "flow gen-flow-files --out-dir defs src/main.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.69.0",
+    "flow-typed": "^2.4.0",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-flow": "^1.1.1",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-license": "^0.6.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-progress": "^0.4.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "lodash-es": "^4.17.8"
+  }
+}

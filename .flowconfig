@@ -1,0 +1,14 @@
+[ignore]
+.*/defs/.*
+.*/dist/.*
+[include]
+src/
+
+[libs]
+
+
+[lints]
+
+[options]
+
+[strict]

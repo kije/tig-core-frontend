@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ], "flow"
+  ],
+
+  "plugins": [
+    //"external-helpers",
+    "lodash"
+  ]
+}

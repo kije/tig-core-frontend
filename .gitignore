@@ -1,3 +1,7 @@
+.idea
+flow-typed
+!flow-typed/lodash-es.js
+
 # Logs
 logs
 *.log
